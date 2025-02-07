@@ -106,3 +106,50 @@ font-size: 10px;
 .section-why-premium h4 {
   padding-bottom: 10px;
 }
+
+.choose-plan {
+  background-color: #efefef;
+}
+
+.choose-plan h2 {
+font-size: 30px;
+padding-top: 70px;
+}
+
+.choose-plan div {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.choose-plan h3 {
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.credit-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.credit-cards img {
+  width: 25px;
+}
+
+.section-plan {
+  display: flex;
+  height: 700px;
+}
+
+.plan-style {
+  background-color: white;
+  box-shadow: 1px 1px 5px rgb(141, 141, 141);
+  border-radius: 7PX;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 500px;
+  max-width: 180px;
+  font-size: 15px;
+}
