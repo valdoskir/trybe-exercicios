@@ -1,7 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   font-family: "Montserrat", serif;
+=======
+  font-family: 'Montserrat', sans-serif;
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
 }
 
 header {
@@ -29,8 +33,13 @@ header div {
   list-style: none;
 }
 
+<<<<<<< HEAD
 .menu li:hover{
  color: #1ed760; 
+=======
+.menu li:hover {
+  color: #1ed760;
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
 }
 
 .menu li {
@@ -40,7 +49,10 @@ header div {
 .section-premium {
   background-color: rgb(29, 117, 222);
   color: white;
+<<<<<<< HEAD
   /* height: 315px; */
+=======
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
 }
 
 .section-premium div {
@@ -77,11 +89,16 @@ header div {
 }
 
 #btn-comece-agora:hover {
+<<<<<<< HEAD
   padding: 16px 36px;
+=======
+  padding: 20px 40px;
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
 }
 
 #btn-ver-planos {
   background-color: rgb(29, 117, 222);
+<<<<<<< HEAD
   color: white;
   padding: 15px 35px;
   border-radius: 100px;
@@ -90,6 +107,12 @@ header div {
 
 #btn-ver-planos:hover {
   padding: 16px 36px;
+=======
+  border: 1px solid white;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 100px;
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
 }
 
 .section-why-premium {
@@ -100,7 +123,11 @@ header div {
 
 .section-why-premium h2 {
   font-size: 30px;
+<<<<<<< HEAD
   padding: 70px 0px;
+=======
+  padding: 70px 0;
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
 }
 
 .premium-items {
@@ -113,6 +140,7 @@ header div {
   padding-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .section-why-premium div {
   padding: 0 40px 70px 0;
 }
@@ -126,10 +154,32 @@ header div {
 }
 
 .choose-plan h2 {
+=======
+.premium-items div {
+  padding: 0 40px 70px 40px;
+}
+
+.premium-items h4 {
+  padding-bottom: 10px;
+}
+
+.section-chose-plan {
+  background-color: #efefef;
+}
+
+.section-chose-plan div {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.section-chose-plan h2 {
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
   font-size: 30px;
   padding-top: 70px;
 }
 
+<<<<<<< HEAD
 .choose-plan div {
   width: 80%;
   text-align: center;
@@ -137,6 +187,9 @@ header div {
 }
 
 .choose-plan h3 {
+=======
+.section-chose-plan h3 {
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
   font-size: 15px;
   padding: 10px 0;
 }
@@ -160,29 +213,48 @@ header div {
 .plan-style {
   background-color: white;
   box-shadow: 1px 1px 5px rgb(141, 141, 141);
+<<<<<<< HEAD
   border-radius: 7PX;
+=======
+  border-radius: 7px;
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+<<<<<<< HEAD
   height: 600px;
+=======
+  height: 650px;
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
   max-width: 180px;
   font-size: 15px;
 }
 
 .free-month {
+<<<<<<< HEAD
   font-size: 13px;
   font-weight: 600;
   background-color: rgb(13, 114, 234);
   color: white;
   padding: 5px;
   border-radius: 3px
+=======
+  background-color: rgb(13, 114, 234);
+  color: white;
+  border-radius: 2px;
+  padding: 5px;
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
 }
 
 .unique-payment {
   color: rgb(13, 114, 234);
   border: 1px solid rgb(13, 114, 234);
+<<<<<<< HEAD
   border-radius: 3px;
+=======
+  border-radius: 2px;
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
   padding: 5px;
   margin-top: 10px;
   font-size: 10px;
@@ -200,8 +272,13 @@ header div {
 
 .plan-style ol {
   text-align: left;
+<<<<<<< HEAD
   padding-left: 20px;;
   font-size: 13px;
+=======
+  padding-left: 20px;
+  font-size: 15px;
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
   margin-bottom: 20px;
   list-style-type: '✓ ';
 }
@@ -213,6 +290,7 @@ header div {
   border-radius: 100px;
   border: 1px solid black;
   margin: auto;
+<<<<<<< HEAD
   margin-bottom: 30px;
 }
 
@@ -222,12 +300,21 @@ header div {
 
 .conditions,
 .conditions a {
+=======
+}
+
+.conditions, .conditions a {
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
   color: rgb(83, 83, 83);
   font-size: 10px;
 }
 
 footer {
+<<<<<<< HEAD
   background-color: rgb(0, 0, 0);
+=======
+  background-color: black;
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
   display: flex;
   justify-content: center;
   padding: 70px 10%;
@@ -252,10 +339,13 @@ footer li {
   font-size: 10px;
 }
 
+<<<<<<< HEAD
 footer a:hover{
   color: #1ed760; 
 }
 
+=======
+>>>>>>> ccc393f (setup: cria a página de planos do spotify)
 footer img {
   width: 150px;
   padding-right: 20px;
