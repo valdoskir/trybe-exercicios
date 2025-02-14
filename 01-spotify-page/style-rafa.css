@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+}
+
+body {
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section {
+    flex: 1;
+    background-color: #121212;
+    width: 767px;
+    margin: 20px auto;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.logo-spotify {
+    font-size: 40px;
+    color: white;
+}
+
+section h1 {
+    font-size: 35px;
+    color: white;
+
+}
+
+.header {
+    padding-top: 20px;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+button {
+    background-color: #121212;
+    color: white;
+    border: 2px solid rgb(155, 153, 153);
+    padding: 15px 35px;
+    border-radius: 100px;
+    margin: 5px;
+    display: flex;
+    font-weight: 800;
+    font-size: 16px;
+
+}
+
+.social-buttons button:hover {
+    border: 2px solid rgb(250, 248, 248);
+}
+
+.social-buttons button span {
+    margin: auto;
+}
+
+.social-buttons button i {
+    font-size: 22px;
+}
+
+hr {
+    margin: 32px 100px;
+    border: 0;
+    border-top: 1px solid #292929;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    font-weight: 700;
+    padding: 10px;
+}
+
+input {
+    background-color: #121212;
+    color: white;
+    border: 2px solid rgb(155, 153, 153);
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.enter-button {
+    margin: 30px 0 40px;
+    display: flex;
+    justify-content: center;
+    color: #121212;
+    background-color: #1ED760;
+    border: none;
+}
+
+.enter-button:hover {
+    color:  #1ED760;
+    background-color: #121212;
+    border: 2px solid rgb(250, 248, 248);
+}
+
+section a {
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    box-sizing: border-box;
+
+}
+
+#no-account {
+    margin: 30px 0 60px;
+    color: #899299;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+footer a {
+    color: #899299;
+}
+
+footer {
+    background-color: #121212;
+    font-size: 10px;
+    color: #899299;
+    text-align: center;
+    padding: 20px;
+}
