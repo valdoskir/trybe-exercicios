@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   @apply bg-spotify-gray flex flex-col min-h-screen text-white;
+}
+
+section { 
+    @apply flex-1 bg-spotify-black w-[767px] my-5	mx-auto border border-solid border-spotify-black rounded px-2.5	py-4 text-center;
+}
+
+.logo-spotify, section h1 {
+    @apply text-3xl;
+}
+
+.social-buttons {
+    @apply flex flex-col w-1/2 m-auto mt-10; 
+}
+
+button { 
+    @apply bg-spotify-black text-white border-2	border-solid rounded-full border-white py-3.5 px-9 m-1 flex font-extrabold text-xs text-base;
+}
+
+.social-buttons button:hover {
+    @apply hover:bg-spotify-green;
+}
+
+.social-buttons button span {
+    @apply m-auto;
+}
+
+.social-buttons button i {
+    @apply text-xl
+}
+
+hr {
+   @apply m-4 border-0 border-t border-solid border-spotify-gray;
+}
+
+#formulario {
+    @apply flex flex-col w-1/2 m-auto mt-5;
+}
+
+label {
+    @apply text-left text-xs my-2.5 mx-0 font-bold;
+}
+
+input {
+    @apply py-2.5 px-1 mb-2.5 rounded bg-spotify-black border border-solid border-spotify-gray text-sm text-white;
+   
+}
+
+.enter-button {
+
+    @apply bg-spotify-green text-spotify-black font-extrabold text-sm py-3.5 px-9 rounded-full border-2 border-solid border-spotify-green my-8 mx-auto w-11/12 block;
+}
+
+.enter-button:hover {
+    @apply hover:bg-spotify-black text-white;
+}
+
+section a {
+    @apply text-sm text-spotify-green font-bold box-border;
+}
+
+#no-account {
+    @apply my-8 text-spotify-gray-light font-bold text-sm;
+}
+
+footer a {
+    @apply text-spotify-gray-light font-bold;
+}
+
+footer {
+    @apply bg-spotify-black text-xs text-spotify-gray-light flex justify-center items-center p-5;
+}
