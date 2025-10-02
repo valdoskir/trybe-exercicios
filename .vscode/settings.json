@@ -20,5 +20,6 @@
         "senha",
         "Senha",
         "Setembro"
-    ]
+    ],
+    "liveServer.settings.port": 5502
 }
